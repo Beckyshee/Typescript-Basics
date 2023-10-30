@@ -94,7 +94,41 @@
 
 
 // data types
-// void in TS 
+// void in TS - void is a set of undefined and null
+// const doSomething = (): void=>{
+//     console.log("doSomething");
+    
+// }
+// let foo:any = undefined;//Any type turns off typescript checks#silver bullet but makes our program look like a house with holes in it
+// console.log(foo.bar());
+
+//never data type- normally used in libraries
+// const doSomrthing = (): never=>{
+//     throw "never"
+// };
+
+// //Type unknown data type
+// // let vany: any = 10
+// // let vunknown: unknown = 10
+
+// let s1: string = vany;
+// let s2:string = vunknown as string//unknown not assignable to type string thats why we have an error
+ 
+
+//Type assertion in TS- i9s when we want to convert one type to another
+// let vany: any = 10
+// let vunknown: unknown = 10
+
+// let s1: string = vany;
+// let s2:string = vunknown as string //we reassigned a string to the unknown
+
+
+
+//working with DOM 
+
+
+
+
 
 
 
